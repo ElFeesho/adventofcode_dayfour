@@ -1,6 +1,6 @@
 OBJS=main.o
 CFLAGS=
-LIBS=
+LIBS=-lcrypto
 PROG=advent4
 
 all:$(OBJS)
